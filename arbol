@@ -1,0 +1,53 @@
+#include <stdio.h>
+       
+  int main(){
+  	
+  	printf("carrillo vargas itzel \n");
+  	
+    printf("seleccionar un numero para ver los los nombres o integrantes \n\n");
+       	
+      printf("1=bisabuelos\n");
+      printf("2=abuelos \n"); 	
+      printf("3=tios \n"); 	
+      printf("4= papas\n");
+      printf("5=hermanos\n");
+      printf("6=sobrinos \n");
+      printf("7= \n");
+      
+	  int op;
+	  
+      scanf("%d",& op);
+	   	
+	  switch(op){
+	  	
+	case 1 :
+	  	printf("\n no se");
+	  	break;
+	case 2:
+	  	printf("\n dolores azpeitia");
+	  	break;
+	case 3:
+	  	printf("\n marcela carrillo ");
+	  	break;
+	case 4:
+	  	printf("\n sofia vargas carlos , jose luis carrillo azpeitia ");
+	  	break;
+	case 5:
+	  	printf("\n Karen vianney carrillo vargas ");
+	  	break;
+    case 6:
+	  	printf("\n zoe alessandra de la cruz carrillo");
+	  	break;
+	case 7:
+	  	printf("\n ");
+	  	break;
+	  		
+	default: printf("\n el dia es incorrecto");
+	break;
+	
+   }
+   
+   return 0; 	
+} 
+       
+       
